@@ -126,7 +126,7 @@
   display: flex;
   .main {
     flex: 1;
-    background: #6cf url(//cloud.hunger-valley.com/17-12-13/38476998.jpg-middle) center center no-repeat;
+    background: #007a87 url(//cloud.hunger-valley.com/17-12-13/38476998.jpg-middle) center center no-repeat;
     background-size: contain;
   }
   .form {
@@ -145,7 +145,8 @@
       }
     }
     .button {
-      background-color: #6cf;
+      // 孔雀蓝
+      background-color: #007a87;
       height: 36px;
       line-height: 36px;
       text-align: center;

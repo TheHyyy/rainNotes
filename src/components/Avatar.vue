@@ -25,7 +25,7 @@ span {
   text-align: center;
   line-height: 32px;
   border-radius: 50%;
-  background: skyblue;
+  background: #007a87;
   color: #fff;
   text-shadow: 1px 0 1px #795c19;
   font-weight: bold;
