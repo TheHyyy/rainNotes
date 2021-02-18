@@ -5,6 +5,7 @@ import Login from "@/components/Login";
 import NotebookList from "@/components/NotebookList";
 import Note from "@/components/NoteDetail";
 import Trash from "@/components/TrashDetail";
+import Sidebar from "@/components/Sidebar";
 
 Vue.use(Router);
 
