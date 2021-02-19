@@ -1,20 +1,29 @@
 <template>
   <div>
-    <span :title="user.username">{{ slug }}</span>
+    <span :title="username">{{ slug }}</span>
   </div>
 </template>
 
 <script>
+import Auth from "@/apis/auth";
+
 export default {
   data() {
     return {
-      user: {
-        username: "hunger"
-      },
-      slug: "H"
+      username: "未登录"
     };
   },
-  methods: {}
+  created() {
+    Auth.getInfo().then(res => {
+      console.log("我是Avatar输出的：");
+      console.log(res);
+    });
+  },
+  computed: {
+    slug() {
+      return this.username.charAt(0);
+    }
+  }
 };
 </script>
 <style scoped>
